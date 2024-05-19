@@ -1,0 +1,73 @@
+.header {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222831a4;
+}
+
+.header__container {
+    min-height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 24px;
+	font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+}
+
+.brand-logo{
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.header__menu {
+    margin: 0px 0px 0px 133px;
+}
+
+@media (max-width: 800px) {
+    .header__menu {
+        margin: 0px 0px 0px 106px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__menu {
+        margin: 0px 0px 0px 82px;
+    }
+}
+
+@media (min-width: 200px) {
+    .header__menu {
+        margin: 0px 0px 0px 32px;
+    }
+}
+
+.menu {
+    padding: 5px 0;
+}
+
+.menu__list {
+    flex-wrap: wrap;
+	display: flex;
+}
+
+.menu__item:not(:last-child) {
+	margin: 0px 21px 0px 0px;
+}
+
+.menu__link {
+    font-size: 16px;
+	font-weight: 600;
+	line-height: 171%;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.menu__link:hover {
+    color: #f96d00;
+}

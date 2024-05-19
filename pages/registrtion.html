@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Веб-сайт на тему кадрове агентство">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Постоєнко Микита">
+
+    <title>Регістрація</title>
+
+    <link rel="icon" href="https://static.tildacdn.one/tild6631-3862-4435-b161-313565393866/favicon_10.ico">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/registration.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container _container">
+                <a href="../index.html" class="header__logo">
+                    <img src="https://static.tildacdn.one/tild6631-3862-4435-b161-313565393866/favicon_10.ico" alt="" class="brand-logo">
+                    HR-Agency
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="../index.html" class="menu__link">Головна</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="catalog.html" class="menu__link">Послуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="menu__link">Про нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html" class="menu__link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page">
+
+            <section class="registration _container">
+                <div class="block-registration">
+                    <form action="#" method="post" class="form-registration">
+                        <h3 class="registration-title">
+                            Регістрація:
+                        </h3>
+                        <div class="content-form">
+                            <label class="input-label" for="name">Ім'я</label>
+                            <input type="text" id="name" name="name" class="input-form">
+                        </div>
+                        <div class="content-form">
+                            <label class="input-label" for="surname">Прізвище</label>
+                            <input type="text" id="surname" name="surname" class="input-form">
+                        </div>
+                        <div class="content-form">
+                            <label class="input-label" for="date">Дата народження</label>
+                            <input type="date" id="date" name="date" class="input-form-date">
+                        </div>
+                        <div class="content-form-radio">
+                            <div class="radio-action">
+                                <label class="input-label-radio" for="man">Чоловік</label>
+                                <input class="radio-input" type="radio" name="state" id="man">
+                            </div>
+                            <div class="radio-action">
+                                <label class="input-label-radio" for="women">Жінка</label>
+                                <input class="radio-input" type="radio" name="state" id="women">
+                            </div>
+                        </div>
+                        <div class="content-form">
+                            <label class="input-label" for="email">Email</label>
+                            <input type="email" id="email" name="email" class="input-form">
+                        </div>
+                        <div class="content-form">
+                            <label class="input-label" for="password">Пароль</label>
+                            <input type="password" id="password" name="password" class="input-form">
+                        </div>
+                        <div class="content-form">
+                            <label class="input-label" for="obl">Область</label>
+                            <select id="obl" name="obl" class="select-form">
+                                <option value="Kiev">Київська</option>
+                                <option value="Dnip">Дніпропетровська</option>
+                                <option value="Zapo">Запорізька</option>
+                                <option value="Odes">Одесська</option>
+                                <option value="Ivan">Івано-Франуівська</option>
+                            </select>
+                        </div>
+                        <div class="content-form-radio">
+                            <div class="radio-action">
+                                <label class="input-label-radio" for="corp">Компанія</label>
+                                <input class="radio-input" type="radio" name="role" id="corp">
+                            </div>
+                            <div class="radio-action">
+                                <label class="input-label-radio" for="worker">Працівник</label>
+                                <input class="radio-input" type="radio" name="role" id="worker">
+                            </div>
+                        </div>
+                        <div class="content-form">
+                            <div class="form-end">
+                                <input type="reset" class="reset-form __button">
+                                <input type="submit" class="submit-form __button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="_container">
+                <div class="block-footer">
+                    <a href="index.html" class="footer_brand"><img src="https://static.tildacdn.one/tild6631-3862-4435-b161-313565393866/favicon_10.ico" alt="" class="brand-logo_footer"></a>
+                    <ol class="footer_iteams">
+                        <li class="footre_iteam">
+                            <a href="catalog.html" class="footer_link"><b class="footer-text">Каталог</b></a>
+                        </li>
+                        <li class="footre_iteam">
+                            <a href="about.html" class="footer_link"><b class="footer-text">Про нас</b></a>
+                        </li>
+                        <li class="footre_iteam">
+                            <a href="contact.html" class="footer_link"><b class="footer-text">Контакти</b></a>
+                        </li>
+                    </ol>
+                    <div class="footer-autor">product by Постоєнко М.Р.</div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

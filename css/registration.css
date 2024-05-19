@@ -1,0 +1,168 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    bottom: 0;
+}
+
+/*------------------------------------------*/
+
+.registration {
+
+}
+
+.block-registration {
+    border: 3px solid #222831;
+    border-radius: 15px;
+    min-width: 358px;
+}
+
+.form-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration-title {
+    font-size: 20px;
+	font-weight: 700;
+	line-height: 134%;
+    margin: 24px 0px;
+}
+
+.content-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 224px;
+}
+
+.input-label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 20px 0px 4px 12px;
+}
+
+.input-form{
+    background-color: #393e46;
+    border: 2px solid #222831;
+    height: 24px;
+    transition: all 0.3s ease 0.1s;
+    color: #fff;
+}
+
+.input-form:hover{
+    background-color: #222831;
+    border-color: #f96d00;
+}
+
+.select-form{
+    background-color: #393e46;
+    border: 2px solid #222831;
+    color: #fff;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.content-form-radio{
+    margin: 16px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 224px;
+}
+
+.input-label-radio{
+    line-height: 160%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.radio-input{
+    color: #222831;
+}
+
+.form-end{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.submit-form{
+    margin: 0px 0px 28px 0px;
+}
+
+.reset-form{
+    margin: 20px 0px 16px 0px;
+}
+
+.input-form-date{
+    background-color: #393e46;
+    border: 2px solid #222831;
+    color: #fff;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.__button{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 160%;
+    width: 146px;
+    height: 36px;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px solid #222831;
+    background-color: #393e46;
+}
+
+@media (max-width: 479px) {
+    .block-registration {
+        border: 2px solid #222831;
+        border-radius: 15px;
+        min-width: 298px;
+    }
+
+    .input-label{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 170%;
+        margin: 18px 0px 4px 10px;
+    }
+
+    .registration-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 150%;
+        margin: 16px 0px;
+    }
+    
+    .submit-form{
+        margin: 0px 0px 12px 0px;
+    }
+    
+    .reset-form{
+        margin: 16px 0px 12px 0px;
+    }
+
+    .content-form-radio{
+        margin: 12px 0px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 224px;
+    }
+
+    .input-label-radio{
+        line-height: 150%;
+        font-size: 16px;
+        font-weight: 60
+        0;
+    }
+
+}

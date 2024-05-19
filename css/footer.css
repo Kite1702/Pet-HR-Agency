@@ -1,0 +1,54 @@
+.footer{
+    background-color: #222831;
+    position: absolute;
+    width: 100%;
+}
+
+.block-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_iteams{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0px;
+}
+
+.footre_iteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footre_iteam:not(:last-child) {
+    margin-right: 48px;
+}
+
+.footer_brand{
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    line-height: 154%;
+    font-weight: 600;
+}
+
+.footer-text {
+    font-size: 18px;
+    line-height: 170%;
+    font-weight: 400;
+}
+
+.footer-autor{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 186%;
+    font-weight: 100;
+    margin-left: auto;
+    color: #b6b6b6;
+}
